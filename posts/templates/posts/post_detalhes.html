@@ -1,4 +1,8 @@
-{% extends 'base.html' %} {% block 'conteudo' %}
+
+{% extends 'base.html' %}
+{% block 'titulo' %}{{ post.titulo_post }}{% endblock 'titulo' %}
+
+{% block 'conteudo' %}
 <div class="container">
     <div class="row pt-5">
         <div class="col-xl"></div>
